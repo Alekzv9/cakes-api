@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cakesController = require('./controllers/cakes.controller');
 const errorHandler = require('./util/error-handler');
+const db = require('./db/config/db-connection');
 
 const app = express();
 const PORT = 8000;

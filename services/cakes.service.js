@@ -1,3 +1,4 @@
+const Cake = require('../db/schemas/cake.schema');
 const CustomError = require('../util/icustomError');
 const cakes = [
   {

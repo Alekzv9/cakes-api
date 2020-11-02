@@ -1,4 +1,4 @@
-const dbConfig = require('./db-configuration')[process.env.ENVIRONMENT];
+const dbConfig = require('./db')[process.env.ENVIRONMENT];
 
 const getDbConfig = () => {
   if (!process.env.ENVIRONMENT)
